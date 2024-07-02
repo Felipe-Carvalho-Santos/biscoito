@@ -1,0 +1,36 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+}
+
+.img{
+    width: 300px;
+    height: 300px;
+    margin-top: 50px;
+}
+
+.btn {
+    margin: 50px;
+    font-size: 20px;
+    border: #dd7b22 2px solid;
+    background-color: #dd7b22;
+    color: #FFF;
+    border-radius: 5px;
+    padding: 20px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    color: #dd7b22;
+    background-color: #fff;
+}
+
+.textoFrase{
+   font-style: italic;
+   color: #dd7b22;
+   text-align: center;
+   font-size: 22px;
+}
